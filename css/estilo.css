@@ -3,7 +3,7 @@
 
 
 body {
-    background: rgb(233, 74, 74);
+    background: cyan;
 }
 
 h1,h2{
@@ -19,4 +19,14 @@ header {
     border-bottom: solid 4px rgb(131, 53, 204);
     margin-bottom: 60px; /* Margen del borde hacia afuera*/
     padding-bottom: 20px; /* Margen del borde hacia adentro*/
+}
+/*Segunda forma de colocar diseño*/
+#FotoDePerfil {
+    border: solid black 2px;
+}
+
+article {
+    border: solid black 3px;
+    width: 30%; /* cuando se usa porcentaje se adapta al tamaño del navegador */
+    float: left; /* Alinea a la izquierda */
 }
