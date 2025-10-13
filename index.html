@@ -18,17 +18,18 @@
 		<!-- p es para parrafos -->
 		<p>Desarrollador full stack | Estudiante de Ingeniería en TI</p>
 	</header>
-	<nav>
+	<nav id="menu-principal">
 		<ul>
-			<li><a href="#">Inicio</a></li> <!-- a es para enlaces -->
-			<li><a href="#">Sobre mi</a></li>
-			<li><a href="#">Proyectos</a></li>
-			<li><a href="#">Contacto</a></li>
+			<li><a href="#bienvenida">Inicio</a></li> <!-- a es para enlaces -->
+			<li><a href="#sobre-mi">Sobre mi</a></li>
+			<li><a href="#proyectos">Proyectos</a></li>
+			<li><a href="#habilidades">Habilidades</a></li>
+			<li><a href="#contacto">Contacto</a></li>
 		</ul>
 	</nav>
 
 	<main>
-		<section>
+		<section id="bienvenida">
 			<h2>Sobre mi</h2>
 			<p>Soy <mark>Diego Cocon Maas </mark>me especializo en <strong>Tecnologías de la información</strong>. Lorem
 				Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
@@ -43,53 +44,119 @@
 				<p>Actualmente estudio la carrera de Tecnologías de la Información e innovación Digital.</p>
 			</aside>
 		</section>
-		<section>
+		<section id="Experiencia">
 			<h2>Experiencia Profesional</h2>
-			<article> <!-- article es para articulos -->
-				<h3>Proyecto Integrador</h3>
-				<p>Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a</p>
-				<time datetime="2025-05">Mayo 2025</time>- <time datetime="2025-07">Julio 2025</time>
-				<!-- El ul sirve para listas con biñetas-->
-				<!-- y la lista se utiliza para agrupar elementos relacionados -->
-				<ul>
-					<li>Tecnologías: .NET </li>
-					<li>Gestor de inventarios</li>
-					<li>Lenguajes: C#</li>
-					<li>Base de datos: SQL Server</li>
-					<li>Metodología: SCRUM</li>
-					<li>Herramientas: Visual Studio comunity 2022</li>
-				</ul>
-			</article>
-						<article> <!-- article es para articulos -->
-				<h3>Proyecto de escaner de vehiculos</h3>
-				<p>Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a</p>
-				<time datetime="2025-05">Mayo 2025</time>- <time datetime="2025-07">Julio 2025</time>
-				<!-- El ul sirve para listas con biñetas-->
-				<!-- y la lista se utiliza para agrupar elementos relacionados -->
-				<ul>
-					<li>Tecnologías: .NET </li>
-					<li>Escaner de vehiculos</li>
-					<li>Lenguajes: C#</li>
-					<li>Base de datos: SQL workbench</li>
-					<li>Metodología: SCRUM</li>
-					<li>Herramientas: Visual Studio comunity 2022</li>
-				</ul>
-			</article>
-						<article> <!-- article es para articulos -->
-				<h3>Proyecto Integrador 3</h3>
-				<p>Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a</p>
-				<time datetime="2025-05">Mayo 2025</time>- <time datetime="2025-07">Julio 2025</time>
-				<!-- El ul sirve para listas con biñetas-->
-				<!-- y la lista se utiliza para agrupar elementos relacionados -->
-				<ul>
-					<li>Tecnologías: .NET </li>
-					<li>Gestor de inventarios</li>
-					<li>Lenguajes: C#</li>
-					<li>Base de datos: SQL Server</li>
-					<li>Metodología: SCRUM</li>
-					<li>Herramientas: Visual Studio comunity 2022</li>
-				</ul>
-			</article>
+			<div id="lista-proyectos">
+				<article class="proyecto"> <!-- article es para articulos -->
+					<h3>Proyecto Integrador</h3>
+					<p>Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+						took
+						a</p>
+					<time datetime="2025-05">Mayo 2025</time>- <time datetime="2025-07">Julio 2025</time>
+					<!-- El ul sirve para listas con biñetas-->
+					<!-- y la lista se utiliza para agrupar elementos relacionados -->
+					<ul>
+						<li>Tecnologías: .NET </li>
+						<li>Gestor de inventarios</li>
+						<li>Lenguajes: C#</li>
+						<li>Base de datos: SQL Server</li>
+						<li>Metodología: SCRUM</li>
+						<li>Herramientas: Visual Studio comunity 2022</li>
+					</ul>
+				</article>
+				<article class="proyecto"> <!-- article es para articulos -->
+					<h3>Proyecto de escaner de vehiculos</h3>
+					<p>Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+						took
+						a</p>
+					<time datetime="2025-05">Mayo 2025</time>- <time datetime="2025-07">Julio 2025</time>
+					<!-- El ul sirve para listas con biñetas-->
+					<!-- y la lista se utiliza para agrupar elementos relacionados -->
+					<ul>
+						<li>Tecnologías: .NET </li>
+						<li>Escaner de vehiculos</li>
+						<li>Lenguajes: C#</li>
+						<li>Base de datos: SQL workbench</li>
+						<li>Metodología: SCRUM</li>
+						<li>Herramientas: Visual Studio comunity 2022</li>
+					</ul>
+				</article>
+				<article class="proyecto"> <!-- article es para articulos -->
+					<h3>Proyecto Integrador 3</h3>
+					<p>Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+						took
+						a</p>
+					<time datetime="2025-05">Mayo 2025</time>- <time datetime="2025-07">Julio 2025</time>
+					<!-- El ul sirve para listas con biñetas-->
+					<!-- y la lista se utiliza para agrupar elementos relacionados -->
+					<ul>
+						<li>Tecnologías: .NET </li>
+						<li>Gestor de inventarios</li>
+						<li>Lenguajes: C#</li>
+						<li>Base de datos: SQL Server</li>
+						<li>Metodología: SCRUM</li>
+						<li>Herramientas: Visual Studio comunity 2022</li>
+					</ul>
+				</article>
+			</div>
+		</section>
+		<section id="habilidades">
+			<h2>Habilidades y Competencias</h2>
+			<h3>Lenguajes y Tecnologías que manejo</h3>
+			<ul class="Tecnologías">
+				<li>HTML5</li>
+				<li>CSS</li>
+				<li>JavaScript</li>
+				<li>Git y GitHub</li>
+				<li>SQL</li>
+				<li>C#</li>
+			</ul>
+			<h3>Niveles de dominio</h3>
+			<div>
+				<label for="html">HTML5</label>
+				<progress max="100" value="80">80%</progress>
+			</div>
+			<div>
+				<label for="css">CSS</label>
+				<progress max="100" value="50">50%</progress>
+			</div>
+			<div>
+				<label for="javascript">JavaScript</label>
+				<progress max="100" value="20">20%</progress>
+			</div>
+			<div>
+				<label for="git">Git y GitHub</label>
+				<progress max="100" value="75">75%</progress>
+			</div>
+			<div>
+				<label for="sql">SQL</label>
+				<progress max="100" value="30">30%</progress>
+			</div>
+			<div>
+				<label for="csharp">C#</label>
+				<progress max="100" value="70">70%</progress>
+			</div>
+
+		</section>
+		<section id="contacto">
+			<h2>Contactame</h2>
+			<form>
+				<div class="Campos">
+					<label>Nombre Completo:</label>
+					<input type="text" name="" placeholder="Nombre Completo" required/>
+				</div>
+				<div class="Campos">
+					<label>Correo Electrónico:</label>
+					<input type="email" name="" placeholder="Correo Electrónico" required/>
+				</div>
+				<div class="Campos">
+					<label>Mensaje:</label>
+					<textarea name="" placeholder="Escribe tu mensaje aquí..." required></textarea>
+				</div>
+				<div class="Campos">
+					<!-- input type="button" value="Enviar" -->
+					<button type="submit">Enviar</button>
+			</form>
 		</section>
 	</main>
 

@@ -1,32 +1,135 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single+Ink:wght@100..900&family=Bitcount+Prop+Single+Ink:wght@100..900&family=Dancing+Script:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single+Ink:wght@100..900&family=Bitcount+Prop+Single+Ink:wght@100..900&family=Dancing+Script:wght@400..700&display=swap');
 
+* {
+    margin: aouto;
+}
 
 body {
     background: cyan;
 }
 
-h1,h2{
+h1,h2 {
     font-family: "Bitcount Prop Single Ink";
 }
 
-p{
+p {
     font-family: "Bitcount Prop Single Ink";
 }
 
 header {
     text-align: center;
     border-bottom: solid 4px rgb(131, 53, 204);
-    margin-bottom: 60px; /* Margen del borde hacia afuera*/
-    padding-bottom: 20px; /* Margen del borde hacia adentro*/
+    margin-bottom: 60px;
 }
-/*Segunda forma de colocar diseño*/
-#FotoDePerfil {
-    border: solid black 2px;
+#menu-principal {
+    background-color: white;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#menu-principal ul {
+    list-style-type: none;
+    display: flex; 
+    gap: 20px; 
 }
 
-article {
+#menu-principal a{
+    text-decoration: none;
+    color: black;
+    font-weight: "Bitcount Prop Single Ink";
+    font-size: 20px;
+}
+
+#menu-principal a:hover {
+    background-color: lightslategrey;
+    color: white;
+}
+
+#bienvenida {
+    background-color: goldenrod;
+    padding: 30px 0;
+}
+
+#FotoDePerfil {
+    border-radius:  2px;
+}
+#Experiencia {
+    background-color: lightblue;
+    padding: 30px 40px;
+    border-top: solid 5px darkblue;
+}
+
+#lista-proyectos {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.proyecto {
     border: solid black 3px;
-    width: 30%; /* cuando se usa porcentaje se adapta al tamaño del navegador */
-    float: left; /* Alinea a la izquierda */
+    width: 30%;
+    border-radius: 20px;
+    padding: auto;
+}
+
+#habilidades {
+    padding: 20px 30px;
+    background-color: rebeccapurple;
+}
+
+.Tecnologias {
+    list-style: none;
+    display: flex;
+    margin-left: 0;
+    gap: 20px;
+}
+
+.Tecnologias li {
+    background-color: wheat;
+    color: black;
+    padding: 12px 20px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+progress{
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    margin: 0;
+}
+
+#contacto {
+    padding: 30px 20px;
+    background-color: yellowgreen;
+    border-top: solid 5px silver;
+}
+
+#contacto label{
+    font-size: 20px;
+}
+
+#contacto input,textarea{
+    font-size: 20px;
+    border: solid 1px black;
+    padding: 10px;
+    width: 30%;
+}
+
+#contacto button{
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#campos{
+    clear: both;
 }
