@@ -143,15 +143,45 @@
 			<form>
 				<div class="Campos">
 					<label>Nombre Completo:</label>
-					<input type="text" name="" placeholder="Nombre Completo" required/>
+					<input type="text" name="" placeholder="Nombre Completo" required />
 				</div>
 				<div class="Campos">
 					<label>Correo Electrónico:</label>
-					<input type="email" name="" placeholder="Correo Electrónico" required/>
+					<input type="email" name="" placeholder="Correo Electrónico" required />
 				</div>
 				<div class="Campos">
 					<label>Mensaje:</label>
 					<textarea name="" placeholder="Escribe tu mensaje aquí..." required></textarea>
+				</div>
+				<div class="Campos">
+					<label>Motivo de contacto:</label>
+					<select>
+						<option>Cotización</option>
+						<option>Prácticas profesionales</option>
+						<option>Otros</option>
+					</select>
+				</div>
+				<div class="Campos">
+					<label>Fecha Eventos:</label>
+					<input type="date" placeholder="aaaa-mm-dd" />
+				</div>
+				<div class="Campos">
+					<label>Modo de contacto:</label>
+					<input type="checkbox" name="canal" class="opciones">whatsapp
+					<input type="checkbox" name="canal" class="opciones">correo Electrónico
+				</div>
+				<div class="Campos">
+					<label>¿Es cliente?</label>
+					<input type="radio" name="cliente" class="opciones">Si
+					<input type="radio" name="cliente" class="opciones">No
+				</div>
+				<div class="Campos">
+					<label>Número de colaboradores:</label>
+					<input type="number" />
+				</div>
+				<div class="Campos">
+					<label>Enviar requerimientos:</label>
+					<input type="file" name="Foto"/>
 				</div>
 				<div class="Campos">
 					<!-- input type="button" value="Enviar" -->
